@@ -187,6 +187,7 @@ bar {
 # set $mode_launcher Launch: [f]irejail firefox
 #bindsym $mod+y mode "$mode_launcher"
 bindsym $mod+y exec firejail firefox
+
 #mode "$mode_launcher" {
 #	bindsym f exec firejail firefox
 #

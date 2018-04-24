@@ -65,5 +65,4 @@ get_session(){
 
 exec $(get_session)
 
-exec --no-startup-id xrandr --output HDMI-0 --primary
-exec --no-startup-id xrandr --output DVI-D-0 --right-of HDMI-0
+
