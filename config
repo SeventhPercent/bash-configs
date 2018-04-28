@@ -36,6 +36,9 @@ font pango:DejaVu Sans Mono 8
 exec sleep 2 && xrandr --output HDMI-0 --primary
 exec sleep 2 && xrandr --output DVI-D-0 --right-of HDMI-0
 
+#Restore Background Image
+exec --no-startup-id ~/.febg
+
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
 
